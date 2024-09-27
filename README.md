@@ -1,29 +1,37 @@
 # Morse Code Converter
 
-Este proyecto es un convertidor de código Morse que permite convertir texto a código Morse y viceversa.
+This project is a simple Morse code converter that can convert text to Morse code and vice versa.
 
-## Instalación
+## Features
+- Convert text to Morse code.
+- Convert Morse code to text.
+- Handle invalid characters and sequences gracefully.
 
-1. Clona el repositorio:
+## Installation
+1. Clone the repository:
     ```sh
-    git clone https://github.com/codebydiego/morse-code-converter.git
-    ```
-2. Navega al directorio del proyecto:
-    ```sh
+    git clone https://github.com/yourusername/morse-code-converter.git
     cd morse-code-converter
     ```
+2. Create a virtual environment and activate it:
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-## Uso
-
-1. Ejecuta el script principal:
+## Usage
+1. Run the main script:
     ```sh
     python main.py
     ```
-2. Sigue las instrucciones en pantalla para convertir texto a código Morse o código Morse a texto.
+2. Follow the prompts to convert text to Morse code or Morse code to text.
 
-## Pruebas
-
-Para ejecutar las pruebas unitarias, usa el siguiente comando:
+## Example
 ```sh
-python -m unittest discover tests
-
+Type 'T' for Text to Morse Code or 'M' for Morse Code to Text: T
+Enter your message: HELLO
+Morse Code: .... . .-.. .-.. ---
