@@ -10,7 +10,7 @@ This project is a simple Morse code converter that can convert text to Morse cod
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/morse-code-converter.git
+    git clone https://github.com/codebydiego/morse-code-converter.git
     cd morse-code-converter
     ```
 2. Create a virtual environment and activate it:
